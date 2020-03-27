@@ -10,16 +10,18 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Charts</title>
+  <title>Movies DataBase</title>
 
   <!-- Custom fonts for this template-->
   <link href="{%static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
-  <link href="{%static 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i' %}" rel="stylesheet">
+  <link href="{%static 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i' %}"
+        rel="stylesheet">
 
   <!-- Custom styles for this template-->
   <link href="{%static 'css/sb-admin-2.min.css' %}" rel="stylesheet">
 
 </head>
+
 
 <body id="page-top">
 
@@ -34,18 +36,19 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">MENU</div>
+        <div class="sidebar-brand-text mx-3"> MENU</div>
       </a>
 
       <!-- Divider -->
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="{% url 'movies_home' %}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Home Page</span></a>
       </li>
+
 
 
       <!-- Divider -->
@@ -56,8 +59,8 @@
         Options
       </div>
 
-        <!-- Nav Item - Tables -->
-    <li class="nav-item">
+      <!-- Nav Item - Movies table CRUD -->
+      <li class="nav-item">
          <a class="nav-link collapsed" href="{% url 'movies' %}" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
          <i class="fas fa-fw fa-table"></i>
           <span>Movies</span></a>
@@ -71,6 +74,8 @@
 
       </li>
 
+
+
       <!-- Nav Item - Charts -->
       <li class="nav-item">
         <a class="nav-link" href="{% url 'charts' %}">
@@ -80,7 +85,7 @@
 
 
 
-        <!-- Nav Item - Pages Collapse Menu -->
+            <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link" href="{% url 'about' %}" >
           <i class="fas fa-fw fa-folder"></i>
@@ -126,71 +131,91 @@
             </div>
           </form>
 
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+          </ul>
+
         </nav>
         <!-- End of Topbar -->
 
-
-
         <!-- Begin Page Content -->
         <div class="container-fluid">
-
+          <div class="row justify-content-center">
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Charts</h1>
-          <p class="mb-4">Chart.js is a third party plugin that is used to generate the charts in this theme. The charts below have been customized - for further customization options, please visit the <a target="_blank" href="https://www.chartjs.org/docs/latest/">official Chart.js documentation</a>.</p>
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Welcome to the Movies website </h1>
+
+          </div>
+
+          </div>
 
           <!-- Content Row -->
-          <div class="row">
 
-            <div class="col-xl-8 col-lg-7">
-
-              <!-- Area Chart -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
-                </div>
-                <div class="card-body">
-                  <div class="chart-area">
-                    <canvas id="myAreaChart"></canvas>
-                  </div>
-                  <hr>
-                  Styling for the area chart can be found in the <code>/js/demo/chart-area-demo.js</code> file.
-                </div>
-              </div>
-
-              <!-- Bar Chart -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
-                </div>
-                <div class="card-body">
-                  <div class="chart-bar">
-                    <canvas id="myBarChart"></canvas>
-                  </div>
-                  <hr>
-                  Styling for the bar chart can be found in the <code>/js/demo/chart-bar-demo.js</code> file.
-                </div>
-              </div>
-
-            </div>
-
-            <!-- Donut Chart -->
-            <div class="col-xl-4 col-lg-5">
-              <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Donut Chart</h6>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body">
-                  <div class="chart-pie pt-4">
-                    <canvas id="myPieChart"></canvas>
-                  </div>
-                  <hr>
-                  Styling for the donut chart can be found in the <code>/js/demo/chart-pie-demo.js</code> file.
-                </div>
-              </div>
-            </div>
           </div>
+               <!-- Outer Row -->
+           <div class="row justify-content-center">
+
+            <div class="col-lg-6 mb-4">
+
+              <!-- Illustrations -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">About our Shcool</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="{%static 'img/eisit_logo.jpg'%}" alt="">
+                  </div>
+                  <p> We are Data Science student in our final year at the EISTI engeneering school also know as Cy Tech.</p>
+                  <a target="_blank" rel="nofollow" href="https://eisti.fr/">School website &rarr;</a>
+                  <a target="_blank" rel="nofollow" href="https://eisti.fr/fr/international/master-international-en-systemes-decisionnelsbig-data"> Big Data Master description &rarr;</a>
+                </div>
+              </div>
+
+               <!-- About -->
+
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">About Us</h6>
+                </div>
+                <div class="card-body">
+                  <p>This project was realiazed by Cylia BERKANE & Chidinma Obiagwu as a final project for NoSQL Class Given by Professor Rachid Chelouah</p>
+                  <a href="https://www.linkedin.com/in/cylia-b-151716133" class="btn btn-linkedin btn-block"> <i class="fab fa-linkedin fa-fw"></i> Linkedin Cylia BERKANE</a>
+                  <a href="https://www.linkedin.com/in/chidinmaobiagwu" class="btn btn-linkedin btn-block"> <i class="fab fa-linkedin fa-fw"></i> Chidinma Obiawgu</a>
+                  <a href="#" class="btn btn-google btn-block"><i class="fab fa-google -f fa-fw"></i> Mail : berkanecyl@eisit.eu</a>
+                  <a href="#" class="btn btn-google btn-block"><i class="fab fa-google -f fa-fw"></i> Mail : Obiagwuchi@eisti.eu</a>
+                  <a href="https://github.com/mounwashere/Django-MovieWebApplication.git" class="btn btn-github btn-block"><i class="fab fa-github -f fa-fw"></i> Git Repository for this project</a>
+
+                </div>
+              </div>
+
+              <!-- Approach -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">About the Website</h6>
+                </div>
+                <div class="card-body">
+                  <p>Movies Website is build with Django Framework, Django is the most common python web framework, which permit use Model-View-Template (MVT) architectural pattern, allowing reusability of components. </p>
+                  <p class="mb-0"> As a NoSQL Database we have choosed to use MongoDB.Atlas data in the cloud. </p>
+                  <p class="mb-0">As a template for our website we used a Bootstrap framework</p>
+                </div>
+              </div>
+
+            </div>
+           </div>
+          <!-- End of content center -->
+          </div>
+
+                {% block content %}
+
+
+                {% endblock content %}
 
         </div>
         <!-- /.container-fluid -->
@@ -202,7 +227,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+            <span>Copyright &copy; ADEO2 2020</span>
           </div>
         </div>
       </footer>
@@ -219,25 +244,23 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
-
-
-  <!-- Bootstrap core JavaScript-->
-  <script src="{%static 'vendor/jquery/jquery.min.js' %}"></script>
-  <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<!-- Bootstrap core JavaScript-->
+  <script src="{% static 'vendor/jquery/jquery.min.js ' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="{%static 'js/sb-admin-2.min.js' %}"></script>
+  <script src="{% static 'js/sb-admin-2.min.js' %}"></script>
 
   <!-- Page level plugins -->
-  <script src="{%static 'vendor/chart.js/Chart.min.js' %}"></script>
+  <script src="{% static 'vendor/chart.js/Chart.min.js' %}"></script>
 
   <!-- Page level custom scripts -->
-  <script src="{%static 'js/demo/chart-area-demo.js' %}"></script>
-  <script src="{%static 'js/demo/chart-pie-demo.js' %}"></script>
-  <script src="{%static 'js/demo/chart-bar-demo.js' %}"></script>
+  <script src="{% static 'js/demo/chart-area-demo.js' %}"></script>
+  <script src="{% static 'js/demo/chart-pie-demo.js' %}"></script>
+
 
 </body>
 

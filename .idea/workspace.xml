@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30d352fe-0724-46df-a4c5-616c79b52c1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_navs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/navs/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/navs/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/navs/_topbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/sb-admin-2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/utilities/_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/utilities/_border.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/utilities/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/utilities/_rotate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_project/movies_register/static/scss/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/templates/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/templates/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/templates/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/templates/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/templates/movies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/templates/movies_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/templates/movies_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/templates/movies_register/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/templates/movies_register/tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies_project/movies_register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/movies_register/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,10 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movies_project/movies_register/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="466">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -23,10 +56,119 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="189" column="70" selection-start-line="189" selection-start-column="70" selection-end-line="189" selection-end-column="70" />
+              <folding>
+                <element signature="e#6144#6150#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="9" column="160099" lean-forward="true" selection-start-line="9" selection-start-column="160099" selection-end-line="9" selection-end-column="160099" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10654" lean-forward="true" selection-start-line="10654" selection-end-line="10658" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/scss/navs/_global.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/scss/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/scss/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/movies.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/movies_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="89" column="51" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/charts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>about</find>
+      <find>ab</find>
+      <find>faceboo</find>
+      <find>fac</find>
+      <find>abou</find>
+      <find>github</find>
+      <find>git</find>
+      <find>facebook</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/movies_project/movies_register/templates/About .html" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/templates/index.html" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/templates/movies.html" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/templates/movies_form.html" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/templates/charts.html" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/templates/About.html" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/views.py" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.css" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/static/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.min.css" />
+        <option value="$PROJECT_DIR$/movies_project/movies_register/templates/about.html" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -53,6 +195,43 @@
             </path>
             <path>
               <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-MovieWebApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-MovieWebApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_register" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-MovieWebApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_register" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-MovieWebApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_register" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-admin-2.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-MovieWebApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_register" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -66,6 +245,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Django-MovieWebApplication\movies_project\movies_register\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -89,24 +273,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585330792771</updated>
-      <workItem from="1585330795506" duration="577000" />
+      <workItem from="1585330795506" duration="9173000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1585331403144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585331403144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="577000" />
+    <option name="totallyTimeSpent" value="9173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.1744312" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -125,12 +318,95 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/views.py">
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="182" column="69" selection-start-line="182" selection-start-column="64" selection-end-line="182" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/movies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/movies_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="89" column="51" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/charts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/scss/navs/_global.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/scss/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10654" lean-forward="true" selection-start-line="10654" selection-end-line="10658" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/static/css/sb-admin-2.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="9" column="160099" lean-forward="true" selection-start-line="9" selection-start-column="160099" selection-end-line="9" selection-end-column="160099" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies_project/movies_register/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="189" column="70" selection-start-line="189" selection-start-column="70" selection-end-line="189" selection-end-column="70" />
+          <folding>
+            <element signature="e#6144#6150#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

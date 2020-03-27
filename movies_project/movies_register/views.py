@@ -46,4 +46,4 @@ def movies_delete(request,id):
     return redirect('/movies/list')
 
 def about(request):
-    return render(request, '/about.html', {'title': 'About'})
+    return render(request, 'about.html', {'title': 'About'})

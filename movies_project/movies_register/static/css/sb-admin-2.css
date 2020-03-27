@@ -10651,6 +10651,19 @@ form.user .btn-user {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
 
+
+.btn-linkedin {
+  color: #fff;
+  background-color: #007bb6;
+  border-color: rgba(0,0,0,0.2);
+}
+
+.btn-github {
+  color: #fff;
+  background-color: #444444;
+  border-color: rgba(0,0,0,0.2);
+}
+
 .btn-facebook {
   color: #fff;
   background-color: #3b5998;
