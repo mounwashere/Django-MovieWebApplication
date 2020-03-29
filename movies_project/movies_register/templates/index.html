@@ -173,21 +173,11 @@
                   </div>
                   <p>The Movies website allow to create and manage a Film database (Add, Update and Delete), to display the number of views per movie (Pi chart, Bar chart, Cone Chart, Line chart,..),
                     to display the average ranking per movie.</p>
-                  <a target="_blank" rel="nofollow" href="https://undraw.co/">See Movies database &rarr;</a>
+                  <a target="_blank" rel="nofollow" href="{% url 'movies_list' %}">See Movies database &rarr;</a>
                 </div>
               </div>
 
-              <!-- Approach -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">About the Website</h6>
-                </div>
-                <div class="card-body">
-                  <p>Movies Website is build with Django Framework, Django is the most common python web framework, which permit use Model-View-Template (MVT) architectural pattern, allowing reusability of components. </p>
-                  <p class="mb-0"> As a NoSQL Database we have choosed to use MongoDB.Atlas data in the cloud. </p>
-                  <p class="mb-0">As a template for our website we used a Bootstrap framework</p>
-                </div>
-              </div>
+
 
             </div>
            </div>

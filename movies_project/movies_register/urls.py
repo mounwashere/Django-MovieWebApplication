@@ -12,4 +12,6 @@ urlpatterns = [
     path('delete/<int:id>/',views.movies_delete,name='movies_delete'),
     path('list/',views.movies_list,name='movies_list'), # get req. to retrieve and display all records
     path('about/', views.about, name='about'),
+    path('list/',views.movies_upload, name='movies_upload'),
 ]
+

@@ -18,5 +18,6 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('movies/',include('movies_register.urls'))
+    path('movies/',include('movies_register.urls')),
+    path('upload-csv/', include('csvfile.urls')),
 ]

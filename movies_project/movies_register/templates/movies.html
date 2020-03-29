@@ -14,6 +14,8 @@
   <title>Movies  - Table</title>
 
   <!-- Custom fonts for this template -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
   <link href="{%static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
   <link href="{%static 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i ' %}" rel="stylesheet">
 
@@ -138,9 +140,43 @@
 
           <!-- Page Heading -->
           <h1 class="h3 mb-2 text-gray-800">Movies</h1>
-          <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the </a>.</p>
+          <p class="mb-4">Through this table we can Update or delete a specefic movie, we are also able to load a Movies csv file</a>.</p>
 
 
+          <!-- Upload file Form -->
+             <!-- Brand Buttons -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Upload CSV  File</h6>
+                </div>
+                <div class="card-body">
+
+                      {% if messages %}
+                            {% for message in messages %}
+                                <div>
+                    <!--                | means OR operator-->
+                                    <strong>{{message|safe}}</strong>
+                                </div>
+                            {% endfor %}
+                        {% else %}
+                        {{order}}
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <label for="file1"> Upload a file</label>
+                            <input type="file" id="file1" name="file">
+                            <small>Only accepts CSV files</small>
+                            <button type="submit">Upload</button>
+                        </form>
+                        {% endif %}
+                        {% for movie in movies %}
+                        {{movie.title}}
+                        {% endfor %}
+
+
+                </div>
+
+
+              </div>
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
@@ -149,14 +185,7 @@
                <div class="row justify-content-end">
 
 
-               <form class="md-form">
-                <div class="file-field">
-                  <div class="btn btn-primary btn-sm float-left">
-                    <span>Choose file</span>
-                    <input type="file">
-                  </div>
-                </div>
-               </form>
+
 
                </div>
 
@@ -174,7 +203,6 @@
                       <th>Director</th>
                       <th>Writer</th>
                       <th>Genre</th>
-                      <th>Synopsis</th>
                       <th>Country</th>
                       <th>Rating</th>
                       <th>Score</th>
@@ -196,7 +224,6 @@
                       <th>Director</th>
                       <th>Writer</th>
                       <th>Genre</th>
-                      <th>Synopsis</th>
                       <th>Country</th>
                       <th>Rating</th>
                       <th>Score</th>
@@ -214,7 +241,6 @@
                       <td>{{Movies.director}}</td>
                       <td>{{Movies.writer}}</td>
                       <td>{{Movies.genre}}</td>
-                      <td>{{Movies.synopsis}}</td>
                       <td>{{Movies.country}}</td>
                       <td>{{Movies.rating}}</td>
                       <td>{{Movies.score}}</td>
@@ -240,7 +266,14 @@
             </div>
           </div>
 
-        </div>
+
+
+            </div>
+
+
+
+
+
         <!-- /.container-fluid -->
 
       </div>
@@ -288,7 +321,6 @@
   <!-- Page level custom scripts -->
   <script src="{% static 'js/demo/datatables-demo.js' %}"></script>
   <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-
 
 </body>
 
