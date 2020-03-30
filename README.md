@@ -17,3 +17,13 @@ python manage.py migrate
 
 #start the django server
 python manage.py runserver
+
+#Create exe file 
+pyinstaller --clean --name=movie manage.py
+
+
+#change directory to dist/movie
+cd dist/movie 
+#execute file 
+
+

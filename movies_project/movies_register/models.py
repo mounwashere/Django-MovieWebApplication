@@ -54,7 +54,7 @@ class Movies(models.Model):
     rating = models.CharField(max_length=120)
     score = models.FloatField()
     year = models.IntegerField( choices=YEARS)
-    release = models.DateField(blank=True, default='', null=True)
+    release = models.DateTimeField(blank=True, default='', null=True)
     runtime = models.IntegerField()
 
     def __str__(self):
