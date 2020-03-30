@@ -10,8 +10,7 @@ urlpatterns = [
     path('charts/', views.charts , name='charts'),
     path('<int:id>/', views.movies_form,name='movies_update'), # get and post req. for update operation
     path('delete/<int:id>/',views.movies_delete,name='movies_delete'),
-    path('list/',views.movies_list,name='movies_list'), # get req. to retrieve and display all records
+    path('list/',views.profile_upload,name='movies_list'), # get req. to retrieve and display all records
     path('about/', views.about, name='about'),
-    path('list/',views.movies_upload, name='movies_upload'),
 ]
 

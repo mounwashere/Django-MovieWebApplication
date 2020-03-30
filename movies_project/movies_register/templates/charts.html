@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Charts</title>
+  <title>Movies Website</title>
 
   <!-- Custom fonts for this template-->
   <link href="{%static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
@@ -136,38 +136,26 @@
 
           <!-- Page Heading -->
           <h1 class="h3 mb-2 text-gray-800">Charts</h1>
-          <p class="mb-4">Chart.js is a third party plugin that is used to generate the charts in this theme. The charts below have been customized - for further customization options, please visit the <a target="_blank" href="https://www.chartjs.org/docs/latest/">official Chart.js documentation</a>.</p>
 
           <!-- Content Row -->
           <div class="row">
 
             <div class="col-xl-8 col-lg-7">
 
-              <!-- Area Chart -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
-                </div>
-                <div class="card-body">
-                  <div class="chart-area">
-                    <canvas id="myAreaChart"></canvas>
-                  </div>
-                  <hr>
-                  Styling for the area chart can be found in the <code>/js/demo/chart-area-demo.js</code> file.
-                </div>
-              </div>
 
               <!-- Bar Chart -->
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Average score</h6>
                 </div>
                 <div class="card-body">
                   <div class="chart-bar">
-                    <canvas id="myBarChart"></canvas>
+
+                      <canvas id="myBarChart" ></canvas>
+
                   </div>
                   <hr>
-                  Styling for the bar chart can be found in the <code>/js/demo/chart-bar-demo.js</code> file.
+                  The average score by genre or category for all the movies.
                 </div>
               </div>
 
@@ -178,15 +166,56 @@
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Donut Chart</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Number of Movies by Genre</h6>
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-                  <div class="chart-pie pt-4">
-                    <canvas id="myPieChart"></canvas>
+                    <div class="card-body">
+                                  <div id="container" style="width: 75%;">
+                    <canvas id="charts"></canvas>
                   </div>
+                          <script>
+
+                    var config = {
+                      type: 'doughnut',
+                      data: {
+                        datasets: [{
+                          data: {{ data|safe }},
+                            backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#80ffe8','#83bcff', '#97d2fb' , '#e1eff6','#eccbd9','#69a2b0','#50c5b7','#6184d8','#d36582', '#c9a690', '#ff5714', '#363537', '#856084'],
+                          hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf', '#80ffe8','#83bcff', '#97d2fb' , '#e1eff6','#eccbd9','#69a2b0','#50c5b7','#6184d8','#d36582', '#c9a690', '#ff5714',  '#363537', '#856084' ],
+                          hoverBorderColor: "rgba(234, 236, 244, 1)",
+                          label: 'Movies By Genre'
+                        }],
+                        labels: {{ labels|safe }}
+                      },
+                      options: {
+                        responsive: true,
+                          maintainAspectRatio: false,
+                        tooltips: {
+                          backgroundColor: "rgb(255,255,255)",
+                          bodyFontColor: "#858796",
+                          borderColor: '#dddfeb',
+                          borderWidth: 1,
+                          xPadding: 15,
+                          yPadding: 15,
+                          displayColors: false,
+                          caretPadding: 10,
+                             },
+                          legend: {
+                          display: false
+                        },
+                                          }
+                    };
+
+                    window.onload = function() {
+                      var ctx = document.getElementById('charts').getContext('2d');
+                      window.myPie = new Chart(ctx, config);
+                    };
+
+                  </script>
+
                   <hr>
-                  Styling for the donut chart can be found in the <code>/js/demo/chart-pie-demo.js</code> file.
+                  Doughnut Chart
                 </div>
               </div>
             </div>
@@ -202,7 +231,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+            <span>Copyright &copy; ADEO2 2020</span>
           </div>
         </div>
       </footer>
@@ -224,6 +253,8 @@
   <!-- Bootstrap core JavaScript-->
   <script src="{%static 'vendor/jquery/jquery.min.js' %}"></script>
   <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
 
   <!-- Core plugin JavaScript-->
   <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>

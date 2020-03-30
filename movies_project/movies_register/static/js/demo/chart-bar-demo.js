@@ -32,13 +32,14 @@ var ctx = document.getElementById("myBarChart");
 var myBarChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["January", "February", "March", "April", "May", "June"],
+
+    labels: labels = ["Action","Adventure","Animation", "Biography", "Comedy","Crime", "Drama", "Family", "Musical","Mystery", "Romance", "Science-Fiction","War","Western"],
     datasets: [{
-      label: "Revenue",
-      backgroundColor: "#4e73df",
-      hoverBackgroundColor: "#2e59d9",
-      borderColor: "#4e73df",
-      data: [4215, 5312, 6251, 7841, 9821, 14984],
+      label: "Average Score",
+      backgroundColor: "#13ccdf",
+      hoverBackgroundColor: "#18d9d3",
+      borderColor: "#07b1df",
+      data:[5.689818181818182, 6.108496240601504, 6.7143456962911126, 6.253846153846154, 6.351351351351352, 6.161019417475728, 5.877777777777777, 6.757640232108317, 6.4799999999999995, 5.787096774193548, 5.792857142857143, 7.041456582633054, 6.348461538461539, 6.057142857142857, 6.2, 6.746931407942238, 7.4],
     }],
   },
   options: {
@@ -54,7 +55,7 @@ var myBarChart = new Chart(ctx, {
     scales: {
       xAxes: [{
         time: {
-          unit: 'month'
+          unit: 'days'
         },
         gridLines: {
           display: false,
@@ -63,12 +64,12 @@ var myBarChart = new Chart(ctx, {
         ticks: {
           maxTicksLimit: 6
         },
-        maxBarThickness: 25,
+        maxBarThickness: 20,
       }],
       yAxes: [{
         ticks: {
           min: 0,
-          max: 15000,
+          max: 10,
           maxTicksLimit: 5,
           padding: 10,
           // Include a dollar sign in the ticks
@@ -86,7 +87,7 @@ var myBarChart = new Chart(ctx, {
       }],
     },
     legend: {
-      display: false
+      display: true
     },
     tooltips: {
       titleMarginBottom: 10,
