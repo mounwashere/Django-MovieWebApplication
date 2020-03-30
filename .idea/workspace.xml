@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30d352fe-0724-46df-a4c5-616c79b52c1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9473c835-6fa3-4724-91e3-b580533377c8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9473c835-6fa3-4724-91e3-b580533377c8/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies_project/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies_project/manage.py" afterDir="false" />
@@ -110,8 +114,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="235">
-                <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <first_editor relative-caret-position="99">
+                <caret line="16" selection-start-line="16" selection-end-line="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -236,19 +240,6 @@
             </path>
             <path>
               <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django-MovieWebApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django-MovieWebApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django-MovieWebApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -322,7 +313,7 @@
       <workItem from="1585330795506" duration="26279000" />
       <workItem from="1585403672936" duration="29960000" />
       <workItem from="1585508774293" duration="14480000" />
-      <workItem from="1585532307492" duration="26281000" />
+      <workItem from="1585532307492" duration="27136000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1585331403144</created>
@@ -335,13 +326,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97000000" />
+    <option name="totallyTimeSpent" value="97855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,7 +345,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49919093" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50161815" side_tool="true" weight="0.32785088" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49838188" visible="true" weight="0.46695557" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49838188" visible="true" weight="0.46695557" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.21820176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -710,8 +700,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="235">
-            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <first_editor relative-caret-position="99">
+            <caret line="16" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
         </state>
