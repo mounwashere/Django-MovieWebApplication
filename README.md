@@ -17,6 +17,7 @@ python manage.py migrate
 
 #start the django server
 python manage.py runserver
+
 #the link to the website
  http://127.0.0.1:8000/movies
 
